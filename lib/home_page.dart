@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                       }
                     },
                     child: Text('Add')),
-                    ],
+              ],
             ),
             Expanded(
               child: ListView.builder(
@@ -114,6 +114,22 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ),
+        // onTap: () {
+        //   showDialog(
+        //       context: context,
+        //       builder: (context) {
+        //         return AlertDialog(
+        //           title: Text('fjkldjf'),
+        //           actions: [
+        //             GestureDetector(
+        //               onTap: () {
+        //                 Navigator.of(context).pop(ture);
+        //               },
+        //             )
+        //           ],
+        //         );
+        //       });
+        // },
       ),
     );
   }
